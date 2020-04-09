@@ -2,9 +2,11 @@
   "name": "mindhive-downtime",
   "version": "0.1.0",
   "author": "damon@mindhive.co.nz",
-  "summary": "",
+  "summary": "Manage when changes are applied to weekly 'downtime' windows",
   "license": "MIT",
-  "source": "",
+  "source": "https://github.com/mindhivenz/puppet-downtime",
+  "project_page": "https://github.com/mindhivenz/puppet-downtime",
+  "issues_url": "https://github.com/mindhivenz/puppet-downtime/issues",
   "dependencies": [
 
   ],

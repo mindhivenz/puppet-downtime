@@ -1,48 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0c41ddfa-676f-4394-8316-3a74b03f708b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.fixtures.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitlab-ci.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/damon.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.pdkignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.puppet-lint.rc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.rspec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.rubocop.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vscode/extensions.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.yardopts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rakefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appveyor.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/common.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/downtime.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/functions/in_window.pp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/functions/outside_window.pp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/functions/upgrade.pp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hiera.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manifests/init.pp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/classes/downtime_spec.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/default_facts.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/spec_helper.rb" afterDir="false" />
-    </list>
+    <list default="true" id="0c41ddfa-676f-4394-8316-3a74b03f708b" name="Default Changelist" comment="Init" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -114,10 +82,22 @@
       <option name="presentableId" value="Default" />
       <updated>1586413975423</updated>
     </task>
+    <task id="LOCAL-00001" summary="Init">
+      <created>1586429052713</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1586429052713</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Init" />
+    <option name="LAST_COMMIT_MESSAGE" value="Init" />
   </component>
   <component name="WindowStateProjectService">
     <state x="328" y="106" key="SettingsEditor" timestamp="1586414810661">
