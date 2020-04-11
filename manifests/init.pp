@@ -14,7 +14,7 @@ class downtime (
       fail('You need to specify timezone::timezone to restrict downtime')
     } elsif $facts['timezone'] == 'UTC' {
       warning(
-        'Reported timezone is UTC, assuming timezone not applied to facts yet but will be next run, will report as outside window'
+        'Reported timezone is UTC, assuming timezone being applied and not in facts yet but will be next run, will report as outside window'
       )
     }
     if !$timezone::autoupgrade {
