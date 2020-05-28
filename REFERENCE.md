@@ -23,25 +23,20 @@ The downtime class.
 
 The following parameters are available in the `downtime` class.
 
-##### `restricted`
+##### `when`
 
-Data type: `Boolean`
-
-
-
-Default value: `false`
-
-##### `window`
-
-Data type: `Struct[{
-    start_time          => Pattern[/[012]?\d:\d\d/],
-    Optional[week_days] => Array[Enum['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']],
-    Optional[hours]     => Variant[Float, Integer],
-  }]`
+Data type: `Variant[
+    Enum[always, never],
+    Struct[{
+      start_time          => Pattern[/[012]?\d:\d\d/],
+      Optional[week_days] => Array[Enum[monday, tuesday, wednesday, thursday, friday, saturday, sunday]],
+      Optional[hours]     => Variant[Float, Integer],
+    }]
+  ]`
 
 
 
-Default value: { start_time => '3:00' }
+Default value: always
 
 ## Functions
 

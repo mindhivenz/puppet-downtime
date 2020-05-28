@@ -1,6 +1,6 @@
 {
   "name": "mindhive-downtime",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "author": "damon@mindhive.co.nz",
   "summary": "Restrict changes to 'downtime' windows",
   "license": "MIT",
